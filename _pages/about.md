@@ -13,7 +13,16 @@ I am currently a Ph.D. student at the Department of Computer Science at the Univ
 My research interests are Large Language Model (LLM), Graph Neural Network (GNN), Knowledge Graph (KG).
 
 
+In Submission
+======
 
+***Question-Aware Knowledge Graph Prompting for Large Language Models*** <br>
+**Haochen Liu**, Song Wang, Chen Chen, Jundong Li. <br>
+Submitted to ICLR 2025.
+
+***KG-CF: Knowledge Graph Completion with Context Filtering*** <br>
+Zaiyi Zheng, Yushun Dong, Song Wang, **Haochen Liu**, Jundong Li. <br>
+Submitted to Bigdata 2024.
 
 
 Publication
