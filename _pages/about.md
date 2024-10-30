@@ -24,13 +24,13 @@ Submitted to NAACL 2025.
 **Haochen Liu**, Song Wang, Chen Chen, Jundong Li. <br>
 Submitted to ICLR 2025.
 
-***KG-CF: Knowledge Graph Completion with Context Filtering*** <br>
-Zaiyi Zheng, Yushun Dong, Song Wang, **Haochen Liu**, Jundong Li. <br>
-Submitted to Bigdata 2024.
-
 
 Publication
 ======
+
+***KG-CF: Knowledge Graph Completion with Context Filtering*** <br>
+Zaiyi Zheng, Yushun Dong, Song Wang, **Haochen Liu**, Jundong Li. <br>
+IEEE International Conference on Big Data, 2024.
 
 ***Knowledge Editing for Large Language Models: A Survey*** [PDF](https://arxiv.org/pdf/2310.16218.pdf) <br>
 Song Wang, Yaochen Zhu, **Haochen Liu**, Zaiyi Zheng, Chen Chen, Jundong Li. <br>
