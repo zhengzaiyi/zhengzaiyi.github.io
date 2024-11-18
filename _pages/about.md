@@ -8,38 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. student at the Department of Computer Science at the University of Virginia, advised by Professor Jundong Li. I received my B.E. in Electronic Engineering from Tsinghua University in 2022.
+I am currently a Ph.D. student at the Department of Computer Engineering at the University of Virginia, advised by Professor [Jundong Li](https://jundongli.github.io/). I received my B.E. in Computer Science from University of Science and Technology of China in 2022.
 
-My research interests are Large Language Model (LLM), Graph Neural Network (GNN), Knowledge Graph (KG).
-
-
-In Submission
-======
-
-***On Demonstration Selection for Large Language Model Fairness*** <br>
-Song Wang, Peng Wang, Yushun Dong, **Haochen Liu**, Tong Zhou, Lu Cheng, Yangfeng Ji, Jundong Li. <br>
-Submitted to NAACL 2025.
-
-***Question-Aware Knowledge Graph Prompting for Large Language Models*** <br>
-**Haochen Liu**, Song Wang, Chen Chen, Jundong Li. <br>
-Submitted to ICLR 2025.
+My research interests lie in the multi-modality application of Large Language Models.
 
 
 Publication
 ======
 
 ***KG-CF: Knowledge Graph Completion with Context Filtering*** <br>
-Zaiyi Zheng, Yushun Dong, Song Wang, **Haochen Liu**, Jundong Li. <br>
+**Zaiyi Zheng**, Yushun Dong, Song Wang, Haochen Liu, Jundong Li. <br>
 IEEE International Conference on Big Data, 2024.
 
-***Knowledge Editing for Large Language Models: A Survey*** [PDF](https://arxiv.org/pdf/2310.16218.pdf) <br>
-Song Wang, Yaochen Zhu, **Haochen Liu**, Zaiyi Zheng, Chen Chen, Jundong Li. <br>
+***A benchmark for fairness-aware graph learning***  <br>
+Yushun Dong, Song Wang, Zhenyu Lei, **Zaiyi Zheng**, Jing Ma, Chen Chen, Jundong Li
+arXiv preprint arXiv:2407.12112
+
+***Explaining Graph Neural Networks with Large Language Models: A Counterfactual Perspective on Molecule Graphs***  <br>
+Yinhan He\*, **Zaiyi Zheng\***, Patrick Soga, Yaochen Zhu, Yushun Dong, Jundong Li
+Findings of the Association for Computational Linguistics: EMNLP 2024
+
+***PyGDebias: A Python Library for Debiasing in Graph Learning***  <br>
+Yushun Dong, Zhenyu Lei, **Zaiyi Zheng**, Song Wang, Jing Ma, Alex Jing Huang, Chen Chen, Jundong Li
+Companion Proceedings of the ACM on Web Conference (WWW) 2024
+
+***Knowledge Editing for Large Language Models: A Survey*** <br>
+Song Wang, Yaochen Zhu, Haochen Liu, **Zaiyi Zheng**, Chen Chen, Jundong Li. <br>
 ACM Computing Surveys, 2024.
 
-***Knowledge Graph-Enhanced Large Language Models via Path Selection*** [PDF](https://arxiv.org/pdf/2406.13862.pdf) <br>
-**Haochen Liu**, Song Wang, Yaochen Zhu, Yushun Dong, Jundong Li. <br>
-Annual Meeting of the Association for Computational Linguistics (ACL), 2024.
 
-***Few-shot Knowledge Graph Relational Reasoning via Subgraph Adaptation*** [PDF](https://arxiv.org/pdf/2406.15507.pdf) <br>
-**Haochen Liu**, Song Wang, Chen Chen, Jundong Li <br>
-Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024
+
+
