@@ -29,7 +29,7 @@ Yinhan He\*, **Zaiyi Zheng\***, Patrick Soga, Yaochen Zhu, Yushun Dong, Jundong 
 Findings of the Association for Computational Linguistics: EMNLP 2024
 
 ***PyGDebias: A Python Library for Debiasing in Graph Learning***  <br>
-Yushun Dong, Zhenyu Lei, **Zaiyi Zheng**, Song Wang, Jing Ma, Alex Jing Huang, Chen Chen, Jundong Li  <br>
+Yushun Dong, Zhenyu Lei, **Zaiyi Zheng**, Song Wang, Jing Ma, Alex Jing Huang, Chen Chen, Jundong Li <br>
 Companion Proceedings of the ACM on Web Conference (WWW) 2024
 
 ***Knowledge Editing for Large Language Models: A Survey*** <br>
