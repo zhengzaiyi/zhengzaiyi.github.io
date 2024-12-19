@@ -10,7 +10,7 @@ redirect_from:
 
 I am currently a Ph.D. student at the Department of Computer Engineering at the University of Virginia, advised by Professor [Jundong Li](https://jundongli.github.io/). I received my B.E. in Computer Science from University of Science and Technology of China in 2022.
 
-My research interests lie in the multi-modality application of Large Language Models.
+My research interests lie in the multi-modal application of Large Language Models.
 
 
 Publication
