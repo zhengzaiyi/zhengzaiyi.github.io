@@ -24,7 +24,7 @@ Conference on Empirical Methods in Natural Language Processing (EMNLP Findings) 
 ACM International Conference on Information and Knowledge Management (CIKM) 2025.
 
 ***Beyond the Permutation Symmetry of Transformers: The Role of Rotation for Model Fusion*** <br>
-Binchi Zhang\*, **Zaiyi Zheng**\*, Zhengzhang Chen, Jundong L <br>
+Binchi Zhang\*, **Zaiyi Zheng**\*, Zhengzhang Chen, Jundong Li. <br>
 International Conference on Machine Learning (ICML) 2025, **Spotlight (Acceptance Rate 2.6%)**.
 
 ***A benchmark for fairness-aware graph learning***  <br>
