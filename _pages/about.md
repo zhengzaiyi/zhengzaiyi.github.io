@@ -13,8 +13,12 @@ I am currently a Ph.D. student at the Department of Computer Engineering at the 
 My research interests lie in the multi-modal application of Large Language Models.
 
 
-Publication
+Publication (* indicated equal contribution)
 ======
+***CeLLTra: Aligning Cell Names with Gene Expression via a Pathway-Informed Transformer*** <br>
+Zhao Li\*, **Zaiyi Zheng**\*, Rongbin Li, Wenbo Chen, Yuntao Yang, Meer A Ali, Jundong Li, W. Jim Zheng <br>
+Bioinformatics, 2026.
+
 ***CoRAG: Enhancing Hybrid Retrieval-Augmented Generation through a Cooperative Retriever Architecture*** <br>
 **Zaiyi Zheng**, Song Wang, Zihan Chen, Yaochen Zhu, Yinhan He, Liangjie Hong, Qi Guo, Jundong Li. <br>
 Conference on Empirical Methods in Natural Language Processing (EMNLP Findings) 2025.
