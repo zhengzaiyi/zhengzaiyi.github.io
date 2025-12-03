@@ -19,11 +19,11 @@ Publication (* indicated equal contribution)
 Zhao Li\*, **Zaiyi Zheng**\*, Rongbin Li, Wenbo Chen, Yuntao Yang, Meer A Ali, Jundong Li, W. Jim Zheng <br>
 Bioinformatics, 2026.
 
-***CoRAG: Enhancing Hybrid Retrieval-Augmented Generation through a Cooperative Retriever Architecture*** <br>
+***CoRAG: Enhancing Hybrid Retrieval-Augmented Generation through a Cooperative Retriever Architecture*** [[PDF]](https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.872.pdf)<br>
 **Zaiyi Zheng**, Song Wang, Zihan Chen, Yaochen Zhu, Yinhan He, Liangjie Hong, Qi Guo, Jundong Li. <br>
 Conference on Empirical Methods in Natural Language Processing (EMNLP Findings) 2025.
 
-***MI4Rec: Pretrained Language Model based Cold-Start Recommendation with Meta-Item Embeddings*** <br>
+***MI4Rec: Pretrained Language Model based Cold-Start Recommendation with Meta-Item Embeddings*** [[PDF]](https://dl.acm.org/doi/abs/10.1145/3746252.3761313)<br>
 **Zaiyi Zheng**, Yaochen Zhu, Haochen Liu, Mingxuan Ju, Tong Zhao, Neil Shah, Jundong Li. <br>
 ACM International Conference on Information and Knowledge Management (CIKM) 2025.
 
