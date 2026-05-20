@@ -1,9 +1,31 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"BigData":
+  url: https://bigdataieee.org/
+  color: "#2f6f9f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Bioinformatics":
+  url: https://academic.oup.com/bioinformatics
+  color: "#4c7c2f"
 
-"Vision":
-  color: "#009f36"
+"CIKM":
+  url: https://www.cikmconference.org/
+  color: "#8a5a9e"
+
+"CSUR":
+  url: https://dl.acm.org/journal/csur
+  color: "#7a4d2f"
+
+"EMNLP Findings":
+  url: https://aclanthology.org/venues/findings/
+  color: "#b14f4f"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#4f6fb1"
+
+"KDD":
+  url: https://www.kdd.org/
+  color: "#a37f2f"
+
+"WWW":
+  url: https://www2024.thewebconf.org/
+  color: "#2f8f7a"
