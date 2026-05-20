@@ -472,11 +472,11 @@ ninja.data = [{
           window.open("mailto:%73%6A%63%34%66%71@%76%69%72%67%69%6E%69%61.%65%64%75", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/zaiyi-zheng-82633824a", "_blank");
         },
       },{
         id: 'social-scholar',
