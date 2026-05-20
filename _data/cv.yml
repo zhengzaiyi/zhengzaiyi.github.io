@@ -43,7 +43,7 @@ cv:
       - company: Meta
         position: Research Advisor II
         location: Menlo Park, CA, United States
-        logo: meta.svg
+        logo: meta.png
         start_date: 2026-05
         end_date: 2027-05
         summary: "Topic: LLM for Recommendation. Adviser: Dr. Cassie Dong."
@@ -78,7 +78,7 @@ cv:
       - company: Snap Inc.
         position: Machine Learning Research Intern
         location: Santa Monica, CA, United States
-        logo: snap.svg
+        logo: snap.png
         start_date: 2025-09
         end_date: 2025-12
         summary: "Topic: Agentic Recommendation Systems. Adviser: Dr. Clark Ju."
@@ -99,7 +99,7 @@ cv:
       - company: Snap Inc.
         position: Research Assistant
         location: Santa Monica, CA, United States
-        logo: snap.svg
+        logo: snap.png
         start_date: 2024-12
         end_date: 2025-05
         summary: "Topic: Cold-Start Item Recommendation. Adviser: Dr. Neil Shah."
