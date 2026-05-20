@@ -1,11 +1,9 @@
 cv:
   name: Zaiyi Zheng
-  label: Ph.D. Student
+  headline: Ph.D. Student
   email: sjc4fq@virginia.edu
   location: Charlottesville, VA
   website: https://zhengzaiyi.github.io
-  image: ""
-  summary: Ph.D. student in Computer Engineering at the University of Virginia, advised by Professor Jundong Li. My research interests lie in recommendation systems, retrieval-augmented generation, and large language models.
 
   social_networks:
     - network: GitHub
@@ -14,131 +12,175 @@ cv:
       username: Mv57HHgAAAAJ
 
   sections:
+    Summary:
+      - >
+        Ph.D. student in Computer Engineering at the University of Virginia,
+        advised by Professor Jundong Li. My research interests lie in
+        recommendation systems, retrieval-augmented generation, and large
+        language models.
+
     Education:
       - institution: University of Virginia
-        location: United States
+        location: Charlottesville, VA, United States
+        logo: uva.svg
         url: https://www.virginia.edu/
         area: Computer Engineering
-        studyType: Ph.D.
-        start_date: Aug. 2023
-        end_date: Present
+        degree: Ph.D.
+        start_date: 2023-08
+        end_date: present
         highlights:
           - Advisor: Prof. [Jundong Li](https://jundongli.github.io/).
 
       - institution: University of Science and Technology of China
-        location: China
+        location: Hefei, Anhui, China
+        logo: ustc.svg
         area: Computer Science
-        studyType: B.E.
-        start_date: Sep. 2018
-        end_date: Jun. 2022
+        degree: B.E.
+        start_date: 2018-09
+        end_date: 2022-06
 
     Industry Experience:
       - company: Meta
         position: Research Advisor II
-        start_date: Jan. 2026
-        end_date: May 2026
+        location: Menlo Park, CA, United States
+        logo: meta.svg
+        start_date: 2026-05
+        end_date: 2027-05
         summary: "Topic: LLM for Recommendation. Adviser: Dr. Cassie Dong."
         highlights:
           - Built a large-scale transformer-based model for effective and efficient ads ranking.
 
       - company: Nokia America
         position: Machine Learning Research Intern
-        start_date: Jan. 2026
-        end_date: May 2026
+        location: Murray Hill, NJ, United States
+        logo: nokia.svg
+        start_date: 2026-01
+        end_date: 2026-05
         summary: "Topic: Generative Recommendation. Adviser: Dr. Liang Wu."
         highlights:
-          - Studied semantic ID (SID) based generative recommendation with large language models, focusing on reasoning-aware generation and efficient inference.
-          - Constructed explicit Chain-of-Thought (CoT) reasoning traces for each meta token in SID generation and trained a teacher model with a two-stage SFT-then-RL pipeline.
-          - Introduced auxiliary soft-thinking tokens for approximately 1B-parameter student models and distilled the teacher's CoT into continuous latent embeddings.
-          - Deployed only the student model at inference time, achieving comparable ranking quality to explicit CoT-based generation with reduced latency and generation cost.
+          - >
+            Studied semantic ID (SID) based generative recommendation with large
+            language models, focusing on reasoning-aware generation and
+            efficient inference.
+          - >
+            Constructed explicit Chain-of-Thought (CoT) reasoning traces for each
+            meta token in SID generation and trained a teacher model with a
+            two-stage SFT-then-RL pipeline.
+          - >
+            Introduced auxiliary soft-thinking tokens for approximately
+            1B-parameter student models and distilled the teacher's CoT into
+            continuous latent embeddings.
+          - >
+            Deployed only the student model at inference time, achieving comparable
+            ranking quality to explicit CoT-based generation with reduced latency
+            and generation cost.
 
       - company: Snap Inc.
         position: Machine Learning Research Intern
-        start_date: Sep. 2025
-        end_date: Dec. 2025
+        location: Santa Monica, CA, United States
+        logo: snap.svg
+        start_date: 2025-09
+        end_date: 2025-12
         summary: "Topic: Agentic Recommendation Systems. Adviser: Dr. Clark Ju."
         highlights:
-          - Developed a personalized LLM-based agent for multi-channel item recall by extending Hugging Face's TRL framework.
-          - Designed and implemented a soft-token mechanism to structurally generate routing weights over recall channels.
-          - Modified the vLLM inference engine to support high-throughput soft-token decoding and agent-style online interaction.
-          - Adapted Group Relative Policy Optimization (GRPO) to optimize adaptive routing over multiple recall models.
+          - >
+            Developed a personalized LLM-based agent for multi-channel item recall
+            by extending Hugging Face's TRL framework.
+          - >
+            Designed and implemented a soft-token mechanism to structurally
+            generate routing weights over recall channels.
+          - >
+            Modified the vLLM inference engine to support high-throughput
+            soft-token decoding and agent-style online interaction.
+          - >
+            Adapted Group Relative Policy Optimization (GRPO) to optimize adaptive
+            routing over multiple recall models.
 
       - company: Snap Inc.
         position: Research Assistant
-        start_date: Dec. 2024
-        end_date: May 2025
+        location: Santa Monica, CA, United States
+        logo: snap.svg
+        start_date: 2024-12
+        end_date: 2025-05
         summary: "Topic: Cold-Start Item Recommendation. Adviser: Dr. Neil Shah."
         highlights:
-          - Developed an adaptive cold-start item recommendation system for rapidly emerging items with sparse or zero interaction histories.
-          - Proposed MI4Rec, a PLM-based cold-start recommender that infers item representations via meta-item embedding composition.
-          - Evaluated on Amazon-Beauty, Toys, Sports, and Yelp under cold-start, warm-start, and general settings, achieving up to 15.71% relative improvement in Recall.
+          - >
+            Developed an adaptive cold-start item recommendation system for rapidly
+            emerging items with sparse or zero interaction histories.
+          - >
+            Proposed MI4Rec, a PLM-based cold-start recommender that infers item
+            representations via meta-item embedding composition.
+          - >
+            Evaluated on Amazon-Beauty, Toys, Sports, and Yelp under cold-start,
+            warm-start, and general settings, achieving up to 15.71% relative
+            improvement in Recall.
 
       - company: Zerozero Robotics
         position: Machine Learning Engineer Intern
-        start_date: Mar. 2022
-        end_date: Aug. 2022
+        location: Hangzhou, Zhejiang, China
+        logo: zerozero.svg
+        start_date: 2022-03
+        end_date: 2022-08
         summary: "Topic: Trajectory Planning. Adviser: Hao Zhang."
         highlights:
-          - Built an outdoor trajectory planning system for physical quadrotors and constructed realistic evaluation environments in Unity.
+          - >
+            Built an outdoor trajectory planning system for physical quadrotors and
+            constructed realistic evaluation environments in Unity.
           - Reproduced an imitation learning framework and incorporated data aggregation to improve obstacle avoidance.
           - Achieved an 18.2% relative reduction in navigation failure rate in outdoor environments.
 
     Academic Experience:
       - company: University of Virginia
         position: Research Assistant
-        start_date: Aug. 2023
-        end_date: Present
+        location: Charlottesville, VA, United States
+        logo: uva.svg
+        start_date: 2023-08
+        end_date: present
         summary: "Topic: Retrieval-Augmented Generation (RAG). Adviser: Prof. Jundong Li."
         highlights:
-          - Proposed CoRAG, a hybrid RAG framework that dynamically selects between global textual retrieval and graph-based relational retrieval.
-          - Designed a Cooperative-Retrievers (CoR) mixture-of-retrievers module with hierarchical gating to adaptively fuse heterogeneous retrieval signals.
-          - Demonstrated strong performance on STaRK semi-structured KGQA benchmarks, achieving up to 11.4% relative Hit@1 improvement over prior RAG baselines.
+          - >
+            Proposed CoRAG, a hybrid RAG framework that dynamically selects between
+            global textual retrieval and graph-based relational retrieval.
+          - >
+            Designed a Cooperative-Retrievers (CoR) mixture-of-retrievers module
+            with hierarchical gating to adaptively fuse heterogeneous retrieval
+            signals.
+          - >
+            Demonstrated strong performance on STaRK semi-structured KGQA
+            benchmarks, achieving up to 11.4% relative Hit@1 improvement over
+            prior RAG baselines.
 
       - company: University of Texas at Austin
         position: Research Assistant
-        start_date: May 2021
-        end_date: Sep. 2021
+        location: Austin, TX, United States
+        logo: ut-austin.svg
+        start_date: 2021-05
+        end_date: 2021-09
         summary: "Topic: Indoor Navigation. Adviser: Dr. Wuyang Chen."
         highlights:
           - Developed an efficient and transferable robot navigation method for sim-to-real deployment.
           - Implemented a PPO-based navigation pipeline on Meta's Habitat platform.
-          - Proposed a contrastive learning component for visual representation learning with positive and negative sampling.
+          - >
+            Proposed a contrastive learning component for visual representation
+            learning with positive and negative sampling.
 
     Interests:
-      - name: Research Areas
-        icon: fa-solid fa-tag
-        keywords:
-          - recommendation systems
-          - retrieval-augmented generation
-          - large language models
-          - graph learning
+      - label: Research Areas
+        details: recommendation systems, retrieval-augmented generation, large language models, graph learning
 
     Skills:
-      - name: Field of Study
-        icon: fa-solid fa-flask
-        keywords:
-          - Recommendation System
-          - Retrieval Augmented Generation
-      - name: Programming and Tools
-        icon: fa-solid fa-code
-        keywords:
-          - Python
-          - PyTorch
-          - Pandas
-          - C++
-          - Unity
-          - LaTeX
-          - Git
-          - Linux
+      - label: Field of Study
+        details: Recommendation System, Retrieval Augmented Generation
+      - label: Programming and Tools
+        details: Python, PyTorch, Pandas, C++, Unity, LaTeX, Git, Linux
 
     Awards:
-      - title: Student Travel Award
-        awarder: CIKM 2025 and BigData 2024
+      - name: Student Travel Award
         date: 2025
-      - title: Silver Scholarship for Outstanding Students
-        awarder: University of Science and Technology of China
+        summary: CIKM 2025 and BigData 2024.
+      - name: Silver Scholarship for Outstanding Students
         date: 2019
-        summary: 2019 - 2022.
-      - title: Talents Class Scholarship
-        awarder: University of Science and Technology of China
+        summary: University of Science and Technology of China, 2019 - 2022.
+      - name: Talents Class Scholarship
         date: 2019
+        summary: University of Science and Technology of China.
