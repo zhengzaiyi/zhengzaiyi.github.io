@@ -4,6 +4,26 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
+        {% assign paper_link = '' %}
+        {% if entry.html %}
+          {% if entry.html contains '://' %}
+            {% assign paper_link = entry.html %}
+          {% else %}
+            {% assign paper_link = entry.html | prepend: '/assets/html/' | relative_url %}
+          {% endif %}
+        {% elsif entry.doi %}
+          {% assign paper_link = entry.doi | prepend: 'https://doi.org/' %}
+        {% elsif entry.arxiv %}
+          {% assign paper_link = entry.arxiv | prepend: 'https://arxiv.org/abs/' %}
+        {% elsif entry.website %}
+          {% assign paper_link = entry.website %}
+        {% elsif entry.pdf %}
+          {% if entry.pdf contains '://' %}
+            {% assign paper_link = entry.pdf %}
+          {% else %}
+            {% assign paper_link = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
+          {% endif %}
+        {% endif %}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
@@ -15,14 +35,20 @@
               {{ venue_style }}
             {% endif -%}
           >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% if paper_link != blank %}
+              <a href="{{ paper_link }}">{{ entry.abbr }}</a>
             {% else %}
               <div>{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded w-100">
+            {% if paper_link != blank %}
+              <a href="{{ paper_link }}">{{ entry.abbr }}</a>
+            {% else %}
+              {{ entry.abbr }}
+            {% endif %}
+          </abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}

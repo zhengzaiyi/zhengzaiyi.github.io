@@ -1,3 +1,7 @@
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
 "BigData":
   url: https://bigdataieee.org/
   color: "#2f6f9f"
@@ -14,8 +18,8 @@
   url: https://dl.acm.org/journal/csur
   color: "#7a4d2f"
 
-"EMNLP Findings":
-  url: https://aclanthology.org/venues/findings/
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp/
   color: "#b14f4f"
 
 "ICML":
@@ -25,6 +29,10 @@
 "KDD":
   url: https://www.kdd.org/
   color: "#a37f2f"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#6b5ca5"
 
 "WWW":
   url: https://www2024.thewebconf.org/

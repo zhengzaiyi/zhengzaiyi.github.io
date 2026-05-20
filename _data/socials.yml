@@ -2,7 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: sjc4fq@virginia.edu # your email address
-rss_icon: true # comment this line to hide the RSS icon
+linkedin_username: zaiyi-zheng-82633824a # your LinkedIn username
 scholar_userid: Mv57HHgAAAAJ # your Google Scholar ID
 github_username: zhengzaiyi # your GitHub username
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)

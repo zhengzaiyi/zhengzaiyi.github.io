@@ -6,7 +6,7 @@ subtitle: Ph.D. Student, Department of Computer Engineering, University of Virgi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_zz.svg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>University of Virginia</p>
@@ -26,6 +26,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a Ph.D. student in the Department of Computer Engineering at the University of Virginia, advised by Professor [Jundong Li](https://jundongli.github.io/). I started my Ph.D. in Fall 2023. Before that, I received my B.E. in Computer Science from the University of Science and Technology of China.
-
-My research interests lie in multimodal applications of large language models.
+I am currently a Ph.D. Candidate in the program of Computer Engineering at the University of Virginia, advised by Professor [Jundong Li](https://jundongli.github.io/). I started my Ph.D. in Fall 2023. Before that, I received my B.E. in Computer Science from the University of Science and Technology of China.
+My research interests lie in building efficient and effective foundational models for the retrieval system.
