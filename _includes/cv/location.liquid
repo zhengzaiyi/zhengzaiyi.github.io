@@ -1,0 +1,15 @@
+{% assign cv_location = include.location | default: '' | strip %}
+{% if cv_location != '' %}
+  <p class="location cv-entry-location">
+    <i class="fa-solid fa-location-dot iconlocation" aria-hidden="true"></i>
+    <span>
+      {% assign cv_location_parts = cv_location | split: ',' %}
+      {% for part in cv_location_parts %}
+        <span class="cv-location-part">
+          {{- part | strip | escape -}}
+          {%- unless forloop.last %},{% endunless -%}
+        </span>
+      {% endfor %}
+    </span>
+  </p>
+{% endif %}

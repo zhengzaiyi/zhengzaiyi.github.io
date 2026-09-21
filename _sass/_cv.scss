@@ -112,6 +112,53 @@ div.container-links {
 .cv-entry-body {
   min-width: 0;
   flex: 1 1 auto;
+
+  .items {
+    padding-left: 1.25rem;
+  }
+}
+
+.cv-entry-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  margin-bottom: 0.5rem;
+
+  .title {
+    margin: 0;
+  }
+}
+
+.cv-entry-date {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+  padding: 0.35em 0.55em;
+  font-size: 0.8rem;
+  line-height: 1.25;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+p.cv-entry-location {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin: 0 0 0.65rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: left;
+
+  .iconlocation {
+    flex: 0 0 auto;
+  }
+}
+
+.cv-location-part {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 @media (max-width: 575.98px) {

@@ -74,7 +74,9 @@ layout: default
               {% if cv.headline or cv.label %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{% if cv.headline %}{{ cv.headline }}{% else %}{{ cv.label }}{% endif %}</td>
+                  <td class="p-1 pl-2 font-weight-light">
+                    {% if cv.headline %}{{ cv.headline }}{% else %}{{ cv.label }}{% endif %}
+                  </td>
                 </tr>
               {% endif %}
               {% if cv.email %}

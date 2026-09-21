@@ -22,7 +22,7 @@ cv:
     Education:
       - institution: University of Virginia
         location: Charlottesville, VA, United States
-        logo: uva.svg
+        logo: uva.png
         url: https://www.virginia.edu/
         area: Computer Engineering
         degree: Ph.D.
@@ -42,7 +42,7 @@ cv:
     Industry Experience:
       - company: Meta
         position: Research Advisor II
-        location: Menlo Park, CA, United States
+        location: Bellevue, WA, United States
         logo: meta.png
         start_date: 2026-05
         end_date: 2027-05
@@ -52,7 +52,7 @@ cv:
 
       - company: Nokia America
         position: Machine Learning Research Intern
-        location: Murray Hill, NJ, United States
+        location: Sunnyvale, CA, United States
         logo: nokia.svg
         start_date: 2026-01
         end_date: 2026-05
@@ -77,7 +77,7 @@ cv:
 
       - company: Snap Inc.
         position: Machine Learning Research Intern
-        location: Santa Monica, CA, United States
+        location: Bellevue, WA, United States
         logo: snap.png
         start_date: 2025-09
         end_date: 2025-12
@@ -98,7 +98,7 @@ cv:
 
       - company: Snap Inc.
         position: Research Assistant
-        location: Santa Monica, CA, United States
+        location: Bellevue, WA, United States
         logo: snap.png
         start_date: 2024-12
         end_date: 2025-05
@@ -118,7 +118,7 @@ cv:
       - company: Zerozero Robotics
         position: Machine Learning Engineer Intern
         location: Hangzhou, Zhejiang, China
-        logo: zerozero.svg
+        logo: zerozero.jpg
         start_date: 2022-03
         end_date: 2022-08
         summary: "Topic: Trajectory Planning. Adviser: Hao Zhang."
@@ -133,7 +133,7 @@ cv:
       - company: University of Virginia
         position: Research Assistant
         location: Charlottesville, VA, United States
-        logo: uva.svg
+        logo: uva.png
         start_date: 2023-08
         end_date: present
         summary: "Topic: Retrieval-Augmented Generation (RAG). Adviser: Prof. Jundong Li."

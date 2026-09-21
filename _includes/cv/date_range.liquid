@@ -1,0 +1,14 @@
+{% assign cv_start_date = include.entry.start_date | default: include.entry.startDate | append: '' | strip %}
+{% assign cv_end_date = include.entry.end_date | default: include.entry.endDate | append: '' | strip %}
+{% assign cv_end_status = cv_end_date | downcase %}
+{% if cv_start_date != '' %}
+  <span class="badge font-weight-bold danger-color-dark cv-entry-date">
+    <time datetime="{{ cv_start_date | escape }}">{{ cv_start_date | slice: 0, 7 | replace: '-', '.' }}</time>
+    <span aria-hidden="true">–</span>
+    {% if cv_end_status == '' or cv_end_status == 'present' %}
+      <span>Present</span>
+    {% else %}
+      <time datetime="{{ cv_end_date | escape }}">{{ cv_end_date | slice: 0, 7 | replace: '-', '.' }}</time>
+    {% endif %}
+  </span>
+{% endif %}
